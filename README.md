@@ -21,3 +21,6 @@ Crear una rama y cambiarse a ella: Se crea una rama con git branch v0.2 y se cam
 Añadir un nuevo fichero en la rama: se añade un fichero con touch 2.txt y hago un git add ., git commit y por ultimo git push origin v0.2
 Pregunta: Las ramas permiten trabajar en desarrollos paralelos sin afectar la rama principal
 
+Merge directo sin conflicto: hago git checkout main para cambiar a la rama main y en ella hago git merge v0.2 -m "merge v0.2 sin conflictos"
+Pregunta: No porque las ramas modificaron archivos diferentes, es decir, 1.txt y 2.txt, por lo que Git puede fusionarlas automáticamente sin conflictos.
+ 
