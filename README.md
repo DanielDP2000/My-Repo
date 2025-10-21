@@ -16,4 +16,8 @@ Crear un tag: se crea un tag con git tag v0.1
 Subir el tag: Se suben ñps cambios al repo remoto con git push --tag origin main
 Pregunta: Un tag es una etiqueta que apunta a un commit espesifico, normalmente usado para marcar versiones estables o lanzamientos.
 
+Crear una rama y cambiarse a ella: Se crea una rama con git branch v0.2 y se cambia a ella con git checkout v0.2
+
+Añadir un nuevo fichero en la rama: se añade un fichero con touch 2.txt y hago un git add ., git commit y por ultimo git push origin v0.2
+Pregunta: Las ramas permiten trabajar en desarrollos paralelos sin afectar la rama principal
 
