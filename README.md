@@ -24,3 +24,6 @@ Pregunta: Las ramas permiten trabajar en desarrollos paralelos sin afectar la ra
 Merge directo sin conflicto: hago git checkout main para cambiar a la rama main y en ella hago git merge v0.2 -m "merge v0.2 sin conflictos"
 Pregunta: No porque las ramas modificaron archivos diferentes, es decir, 1.txt y 2.txt, por lo que Git puede fusionarlas automáticamente sin conflictos.
  
+Merge con conflicto: En la rama main ponemos Hola en el fichero 1.txt y hacemos commit, luego nos posicionamos en la rama v0.2 y ponemos Adios en el fichero 1.txt y hacemos commit, nos posicionamos de nuevo en la rama main y hacemos un merge con la rama v0.2
+
+
